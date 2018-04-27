@@ -1,0 +1,66 @@
+.expertise{
+  header{
+
+  }
+  &__cells{
+    &__cell{
+      &__icon{
+
+      }
+      &__title{
+        
+      }
+      &__copy{
+
+      }
+    }
+  }
+}
+
+
+@mixin expertise--md(){
+  .expertise{
+
+    header{
+  
+    }
+  
+    &__cells{
+      &__cell{
+        &__icon{
+  
+        }
+        &__title{
+          
+        }
+        &__copy{
+          
+        }
+      }
+    }
+  }
+}
+
+
+@mixin expertise--lg(){
+  .expertise{
+
+    header{
+  
+    }
+  
+    &__cells{
+      &__cell{
+        &__icon{
+  
+        }
+        &__title{
+          
+        }
+        &__copy{
+          
+        }
+      }
+    }
+  }
+}

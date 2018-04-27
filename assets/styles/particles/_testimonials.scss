@@ -1,0 +1,68 @@
+.testimonials{
+
+  &__carousel-wrap{
+
+  }
+
+  &__carousel{
+    &__cell{
+      &__image{
+
+      }
+      &__copy{
+
+      }
+      &__person{
+
+      }
+    }
+  }
+}
+
+@mixin testimonials--md(){
+  .testimonials{
+
+    &__carousel-wrap{
+      
+    }
+  
+    &__carousel{
+      &__cell{
+        &__image{
+  
+        }
+        &__copy{
+  
+        }
+        &__person{
+  
+        }
+      }
+    }
+  }
+}
+
+@mixin testimonials--lg(){
+  .testimonials{
+
+    &__carousel-wrap{
+      
+    }
+  
+    &__carousel{
+      &__cell{
+        &__image{
+  
+        }
+        &__copy{
+  
+        }
+        &__person{
+  
+        }
+      }
+    }
+  }
+}
+
+

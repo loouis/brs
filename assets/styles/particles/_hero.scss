@@ -1,0 +1,58 @@
+.hero{
+  &--full-screen{
+
+  }
+  &--home{
+
+  }
+
+  .wrapper{
+
+  }
+
+  &__copy-wrap{
+    &__copy{
+
+    }
+  }
+}
+
+@mixin hero--md(){
+  .hero{
+    &--full-screen{
+  
+    }
+    &--home{
+  
+    }
+    .wrapper{
+
+    }
+  
+    &__copy-wrap{
+      &__copy{
+        
+      }
+    }
+  }
+}
+
+@mixin hero--lg(){
+  .hero{
+    &--full-screen{
+  
+    }
+    &--home{
+  
+    }
+    .wrapper{
+
+    }
+  
+    &__copy-wrap{
+      &__copy{
+        
+      }
+    }
+  }
+}

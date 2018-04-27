@@ -1,0 +1,97 @@
+.latest-jobs{
+  .wrapper{
+
+  }
+  .section-header{
+    &__intro{
+      &__copy{
+
+      }
+    }
+  }
+  &__cells{
+    &__cell{
+      &__level{
+
+      }
+      &__wrap{
+        &__icon{
+
+        }
+        &__title{
+
+        }
+        &__copy{
+
+        }
+      }
+    }
+  }
+}
+
+
+@mixin latest-jobs--md(){
+  .latest-jobs{
+    .wrapper{
+  
+    }
+    .section-header{
+      &__intro{
+        &__copy{
+  
+        }
+      }
+    }
+    &__cells{
+      &__cell{
+        &__level{
+  
+        }
+        &__wrap{
+          &__icon{
+  
+          }
+          &__title{
+  
+          }
+          &__copy{
+            
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin latest-jobs--lg(){
+  .latest-jobs{
+    .wrapper{
+  
+    }
+    .section-header{
+      &__intro{
+        &__copy{
+  
+        }
+      }
+    }
+    &__cells{
+      &__cell{
+        &__level{
+  
+        }
+        &__wrap{
+          &__icon{
+  
+          }
+          &__title{
+  
+          }
+          &__copy{
+            
+          }
+        }
+      }
+    }
+  }
+}
