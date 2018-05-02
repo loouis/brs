@@ -1,0 +1,58 @@
+.section-header{
+  display: flex;
+  flex-wrap:wrap;
+  max-width: 700px;
+
+  &--hero{
+    margin-top:2rem;
+  }
+
+  &__title{
+
+    &__line{
+      max-width:160px;
+      height:1px;
+      background:$c-grey1;
+      margin-bottom: .75rem;
+    }
+  }
+
+  &__intro{
+    margin-top: 1.5rem;
+
+    .btn{
+      margin-top: 1.5rem;
+    }
+  }
+  
+
+  h4{
+
+  }
+
+}
+
+@mixin section-header--md(){
+  
+  .section-header{
+
+    &--hero{
+      margin-top:3rem;
+    }
+
+    &__title{
+
+      &__line{
+        max-width:140px;
+      }
+    }
+    &__intro{
+      margin-top: 0;
+      padding-left:0;
+    }
+
+    h4{
+
+    }
+  }
+}

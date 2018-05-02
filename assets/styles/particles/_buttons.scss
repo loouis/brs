@@ -1,8 +1,66 @@
 .btn{
-  
+  // Reset
+  background:none;
+  outline:0;
+  border:0;
+  padding:0;
+  /********/
+
 }
 .btn-text-icon{
-  i{
+  color:white;
+
+  &__wrap{
+    display:flex;
     
+    &__text{
+      font-weight:500;
+      color:white;
+    }
+  }
+
+  &--arrow{
+    i{
+      position: relative;
+      width: 30px;
+      margin-left: .5rem;
+  
+      &:after, &:before{
+        content:"";
+        position: absolute;
+      }
+      &:after{
+        width: 0; 
+        height: 0; 
+        top:9px;
+        left:10px;
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        
+        border-left: 7px solid white;
+      }
+      &:before{
+        left:2px;
+        top:12px;
+        width:8px;
+        height:2px;
+        background:white;
+      }
+    }
+
+    &-down{
+      i{
+        top:8px;
+        left:-5px;
+        transform:rotate(90deg);
+      }
+    }
+  }
+
+}
+
+.btn-list-links__link{
+  a{
+    padding:.25rem 0;
   }
 }

@@ -1,17 +1,24 @@
 
 // Medium screen size
 @media screen and (min-width:700px) and (min-height:500px){
+  @include layout--md();
+  @include typography--md();
+  @include navigation--md();
   @include hero--md();
   @include expertise--md();
   @include testimonials--md();
   @include latest-jobs--md();
+  @include section-header--md();
+  @include footer--md();
 }
 
 
 // Large screen size
 @media screen and (min-width:1000px)and (min-height:500px){
+  @include layout--lg();
   @include hero--lg();
   @include expertise--lg();
   @include testimonials--lg();
   @include latest-jobs--lg();
+  @include footer--lg();
 }

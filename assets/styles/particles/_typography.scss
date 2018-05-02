@@ -1,0 +1,144 @@
+body,html{
+  font-size:16px;
+  font-family:$f-brand;
+}
+
+h1,h2,h3,h4{
+  font-weight:400;
+}
+
+h1{
+  font-size: 2rem;
+  line-height: 2.25rem;
+
+  &.f-small{
+
+  }
+  &.f-large{
+
+  }
+}
+h2{
+  font-size: 1.85rem;
+
+  &.f-small{
+    font-size: 1.35rem;
+  }
+  &.f-large{
+    
+  }
+}
+h3{
+  &.f-small{
+
+  }
+  &.f-large{
+    
+  }
+}
+h4{
+  font-size:1.15rem;
+  &.f-small{
+
+  }
+  &.f-large{
+    
+  }
+}
+p, a{
+  font-size:0.9rem;
+  font-weight: 300;
+  color:$c-grey2;
+  line-height: 1.35rem;
+  letter-spacing: 0.015em;
+
+  &.f-small{
+    font-size:0.75rem;
+
+    &.f-uppercase{
+      font-size:0.65rem;
+    }
+  }
+  &.f-large{
+    font-size:1rem;
+    line-height: 1.5rem;
+  }
+  &.f-largest{
+    font-size:1.75rem;
+    line-height: 1.95rem;
+  }
+}
+
+
+
+@mixin typography--md(){
+  body,html{
+    font-size:18px;
+  }
+
+  h1{
+    font-size: 3rem;
+    line-height: 3.25rem;
+
+    &.f-small{
+
+    }
+    &.f-large{
+
+    }
+  }
+  h2{
+    font-size: 1.85rem;
+
+    &.f-small{
+      font-size: 1.5rem;
+    }
+    &.f-large{
+      
+    }
+  }
+  h3{
+    &.f-small{
+
+    }
+    &.f-large{
+      
+    }
+  }
+  h4{
+    &.f-small{
+
+    }
+    &.f-large{
+      
+    }
+  }
+  p, a{
+    &.f-small{
+      
+    }
+    &.f-large{
+      font-size:1.2rem;
+      line-height: 1.75rem;
+    }
+    &.f-largest{
+      font-size:2.25rem;
+      line-height: 2.75rem;
+    }
+  }
+}
+
+
+
+
+
+.f-normal{
+  font-weight:400;
+}
+.f-bold{
+  font-weight:500;
+}
+.f-uppercase{
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}

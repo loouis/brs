@@ -3,15 +3,20 @@
 
   }
   &__cells{
-    &__cell{
-      &__icon{
+    margin-top: 5rem;
 
+    &__cell{
+      margin-bottom: 3rem;
+
+      &__icon{
+        max-width:80px;
+        margin-bottom: 1.5rem;
       }
       &__title{
-        
+        margin-bottom: .85rem;
       }
       &__copy{
-
+        max-width:320px;
       }
     }
   }
@@ -26,7 +31,14 @@
     }
   
     &__cells{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: space-between;
+
       &__cell{
+        width:30%;
+        margin-bottom: 4rem;
+
         &__icon{
   
         }

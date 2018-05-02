@@ -1,0 +1,23 @@
+
+body.body-fixed{
+  overflow: hidden;
+}
+
+.nav--open{
+  .nav{
+    transform:translateX(0);
+
+    &__wrap{
+      &__links__link a{
+        transform:translateX(0);
+      }
+      &__contact-links{
+        opacity:1;
+
+      }
+    }
+  }
+  .main-header__close{
+    display: block;
+  }
+}

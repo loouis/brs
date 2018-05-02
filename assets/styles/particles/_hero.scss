@@ -1,13 +1,29 @@
 .hero{
-  &--full-screen{
+  min-height:700px;
+  max-height:1000px;
+  
 
+  h1{
+    color:$c-grey1;
+
+    strong{
+      font-weight:500;
+      color:white;
+    }
+  }
+  
+
+  &--full-screen{
   }
   &--home{
-
+    
   }
 
   .wrapper{
-
+    display:flex;
+    align-items: center;
+    align-content:flex-start;
+    flex-wrap:wrap;
   }
 
   &__copy-wrap{
@@ -19,11 +35,16 @@
 
 @mixin hero--md(){
   .hero{
+    
+    h1{
+      max-width:800px;
+    }
+
     &--full-screen{
   
     }
     &--home{
-  
+      padding-top:5rem;
     }
     .wrapper{
 

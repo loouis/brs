@@ -1,28 +1,65 @@
 .latest-jobs{
+  background:$c-grey5;
+
   .wrapper{
 
   }
-  .section-header{
-    &__intro{
-      &__copy{
-
-      }
-    }
-  }
   &__cells{
     &__cell{
+      width:100%;
+      background:$c-grey4;
+      margin-bottom: 1.5rem;
+      border-radius:5px;
+      margin-top: 2rem;
+      
+      
       &__level{
-
+        display: inline-block;
+        background:transparent;
+        border:1px solid $c-grey3;
+        padding:0 .45rem;
+        margin:.75rem 0 0 .75rem;
+        border-radius:4px;
       }
       &__wrap{
+        padding:1.5rem;
+        
         &__icon{
-
+          width: 100px;
+          height: 100px;
+          background:red;
+          margin-bottom: 1rem;
+          margin-top: .5rem;
         }
         &__title{
-
+          margin-bottom:1rem;
         }
         &__copy{
+          margin-bottom: 1rem;
+          color:$c-grey2;
+        }
 
+        &__btn{
+          opacity:0;
+
+          .btn-text-icon__wrap__icon{
+            
+            &:before{
+              background:black;
+            }
+            &:after{
+              border-left: 7px solid black;
+            }
+          }
+
+          p{
+            color:black;
+            font-size:0.75rem;
+
+            &:before, &:after{
+              background:black;
+            }
+          }
         }
       }
     }
@@ -35,19 +72,23 @@
     .wrapper{
   
     }
-    .section-header{
-      &__intro{
-        &__copy{
-  
-        }
-      }
-    }
     &__cells{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: space-between;
+
       &__cell{
+        width:30%;
+        margin-bottom: 4rem;
+        margin-top: 5rem;
+        
+
         &__level{
   
         }
         &__wrap{
+          padding:2rem;
+
           &__icon{
   
           }
@@ -56,6 +97,30 @@
           }
           &__copy{
             
+          }
+        }
+        &:hover{
+          background:white;
+
+          .latest-jobs__cells__cell{
+
+            &__level{
+              background:black;
+              border:1px solid black;
+            }
+            &__wrap{
+
+              &__title{
+                color:black;
+              }
+              &__copy{
+                color:$c-grey4;
+              }
+
+              &__btn{
+                opacity:1;
+              }
+            }
           }
         }
       }

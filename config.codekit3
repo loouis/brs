@@ -50,6 +50,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/vendor\/bxslider.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/assets\/js\/vendor\/bxslider-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/vendor\/scrollit.js": {
 		"ft": 64,
 		"ma": 0,
@@ -60,32 +70,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/styles\/pages\/_holding-page.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/build\/assets\/styles\/pages\/_holding-page.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/styles\/pages\/_pages-all.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/build\/assets\/styles\/pages\/_pages-all.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/assets\/styles\/particles\/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -95,6 +79,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/build\/assets\/styles\/particles\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/styles\/particles\/_colors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/assets\/styles\/particles\/_colors.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -112,7 +109,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/particles\/_grids.scss": {
+	"\/assets\/styles\/particles\/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -120,7 +117,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/assets\/styles\/particles\/_grids.css",
+		"oAP": "\/build\/assets\/styles\/particles\/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -151,6 +148,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/styles\/particles\/_layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/assets\/styles\/particles\/_layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/styles\/particles\/_media-queries.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -160,6 +170,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/build\/assets\/styles\/particles\/_media-queries.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/styles\/particles\/_navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/assets\/styles\/particles\/_navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -190,7 +213,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/particles\/_section-title.scss": {
+	"\/assets\/styles\/particles\/_section-header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -198,7 +221,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/assets\/styles\/particles\/_section-title.css",
+		"oAP": "\/build\/assets\/styles\/particles\/_section-header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/styles\/particles\/_state.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/assets\/styles\/particles\/_state.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -290,6 +326,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/build\/assets\/styles\/utility\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/styles\/vendors\/_bxslider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/assets\/styles\/vendors\/_bxslider.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/styles\/vendors\/_vendors-all.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/assets\/styles\/vendors\/_vendors-all.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -675,13 +737,6 @@
 		"oAP": "\/build\/template-demo.php",
 		"oF": 0
 		},
-	"\/templates\/_holding-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/build\/templates\/_holding-page.php",
-		"oF": 0
-		},
 	"\/templates\/homepage.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -698,6 +753,12 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/assets\/js\/vendor\/scrollit.js",
 			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/vendor\/bxslider.js",
+			"position": 1,
 			"type": 0
 			}
 		]

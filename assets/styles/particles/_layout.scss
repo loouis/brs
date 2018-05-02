@@ -1,0 +1,55 @@
+.wrapper{
+  padding:6rem 2rem;
+  max-width:1280px;
+  margin:0 auto;
+}
+
+.l-20, .l-40, .l-60, .l-80, .l-100{
+  width:100%;
+}
+
+
+
+
+@mixin layout--md(){
+
+  .l-20, .l-40, .l-60, .l-80, .l-100{
+    padding:0 4%;
+  }
+  
+  .l-20{
+    width:20%;
+  }
+  .l-40{
+    width:40%;
+  }
+  .l-60{
+    width:60%;
+  }
+  .l-80{
+    width:80%;
+  }
+  .l-100{
+    width:100%;
+  }
+  .l-first{
+    padding-left:0;
+  }
+  .l-last{
+    padding-right: 0;
+  }
+
+  .wrapper{
+    padding:6rem 4rem;
+  }
+
+}
+
+
+
+@mixin layout--lg(){
+  .wrapper{
+    padding-left:4rem;
+    padding-right:4rem;
+  }
+}

@@ -14,19 +14,19 @@
       <section class="hero hero--home hero--full-screen" data-scroll-index="0" style="background-image: url(<?php echo $hero_image['sizes']['d_full-screen']?>)">
     <?php } ?>
     <div class="wrapper">
-      <h1><?php the_field('hero-main-title');?></h1>
-      <header class="section-header">
-        <div class="section-title">
-          <span class="section-title__line"></span> 
-          <h4><?php the_field('hero-section-title-clone_section-header-title');?></h4>
+      <?php the_field('hero-main-title');?>
+      <header class="section-header section-header--hero">
+        <div class="section-header__title l-40 l-first">
+          <span class="section-header__title__line"></span> 
+          <h4 class="f-white"><?php the_field('hero-section-title-clone_section-header-title');?></h4>
         </div>
         <?php if( get_field('hero-section-title-clone_section-header-copy') ):?>
-          <div class="section-header__intro">
+          <div class="section-header__intro l-60 l-last">
             <p><?php the_field('hero-section-title-clone_section-header-copy');?></p>
-            <button class="btn btn-text-icon">
-              <a href="#0" data-scroll-goto="1">
-                <p class="btn-text-icon__text"><?php the_field('');?></p>
-                <i class="btn-text-icon__icon"></i>
+            <button class="btn btn-text-icon btn-text-icon--arrow btn-text-icon--arrow-down">
+              <a href="#0" data-scroll-goto="1" class="btn-text-icon__wrap">
+                <p class="btn-text-icon__wrap__text">See our expertise</p>
+                <i class="btn-text-icon__wrap__icon"></i>
               </a>
             </button>
           </div>
@@ -36,18 +36,24 @@
   </section><!-- //home -->
   <section class="expertise" id="expertise" data-scroll-index="1">
     <div class="wrapper">
-    <header class="section-header">
-        <div class="section-title">
-          <span class="section-title__line"></span> 
-          <h4><?php the_field('expertise_clone_section-header-title');?></h4>
+      <header class="section-header">
+        <div class="section-header__title l-40 l-first">
+          <span class="section-header__title__line"></span> 
+          <h4 class="f-white"><?php the_field('expertise_clone_section-header-title');?></h4>
         </div>
         <?php if( get_field('expertise_clone_section-header-copy') ):?>
           <div class="section-header__intro">
             <p><?php the_field('hero-section-title-clone_section-header-copy');?></p>
-            <button class="btn btn-text-icon">
+          </div>
+        <?php endif;?>
+
+        <?php if( get_field('expertise_clone_section-header-copy') ):?>
+          <div class="section-header__intro l-60 l-last">
+            <p><?php the_field('expertise_clone_section-header-copy');?></p>
+            <button class="btn btn-text-icon btn-text-icon--arrow btn-text-icon--arrow-down">
               <a href="#0" data-scroll-goto="1">
-                <p class="btn-text-icon__text"><?php the_field('');?></p>
-                <i class="btn-text-icon__icon"></i>
+                <p class="btn-text-icon__text">See our expertise</p>
+                <i class="btn-text-icon__icon "></i>
               </a>
             </button>
           </div>
@@ -66,17 +72,17 @@
   <section class="latest-jobs" id="jobs" data-scroll-index="3">
     <div class="wrapper">
       <header class="section-header">
-        <div class="section-title">
-          <span class="section-title__line"></span> 
-          <h4><?php the_field('latest_jobs_clone_section-header-title');?></h4>
+        <div class="section-header__title l-40 l-first">
+          <span class="section-header__title__line"></span> 
+          <h4 class="f-white"><?php the_field('latest_jobs_clone_section-header-title');?></h4>
         </div>
         <?php if( get_field('latest_jobs_clone_section-header-copy') ):?>
-          <div class="section-header__intro">
+          <div class="section-header__intro l-60 l-last">
             <p><?php the_field('latest_jobs_clone_section-header-copy');?></p>
-            <button class="btn btn-text-icon">
-              <a href="#0" data-scroll-goto="1">
-                <p class="btn-text-icon__text"><?php the_field('');?></p>
-                <i class="btn-text-icon__icon"></i>
+            <button class="btn btn-text-icon btn-text-icon--arrow">
+              <a href="#0" data-scroll-goto="4" class="btn-text-icon__wrap">
+                <p class="btn-text-icon__wrap__text">Contact us</p>
+                <i class="btn-text-icon__wrap__icon"></i>
               </a>
             </button>
           </div>

@@ -25,8 +25,11 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section, span, i {
 	display: block;
+}
+*{
+  box-sizing:border-box;
 }
 body {
 	line-height: 1;
@@ -49,4 +52,5 @@ table {
 
 a{
   display:block;
+  text-decoration:none;
 }
